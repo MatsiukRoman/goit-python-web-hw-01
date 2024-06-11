@@ -251,7 +251,7 @@ def show_birthday(args, book: AddressBook):
         return f"Contact not found!"
     else:
         if not record.birthday is None:
-            return f"{record.birthday.value.strftime("%d.%m.%Y")}"
+            return f"{record.birthday.value.strftime('%d.%m.%Y')}"
         else:
             return None
 
